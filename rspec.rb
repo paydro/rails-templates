@@ -1,7 +1,6 @@
 
-gem 'mocha'
-gem "thoughtbot-factory_girl", :lib => "factory_girl", :source => "http://gems.github.com"
-gem "webrat"
+load_file "http://github.com/paydro/rails-templates/raw/master/testing.rb"
+
 gem "rspec", :lib => false
 gem "rspec-rails", :lib => false
 gem "cucumber"
