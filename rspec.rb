@@ -1,5 +1,5 @@
 
-load_file "http://github.com/paydro/rails-templates/raw/master/testing.rb"
+load_template "http://github.com/paydro/rails-templates/raw/master/testing.rb"
 
 gem "rspec", :lib => false
 gem "rspec-rails", :lib => false
