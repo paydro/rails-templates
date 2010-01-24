@@ -11,6 +11,7 @@ generate :rspec
 generate :cucumber, "--rspec"
 
 git :rm => "-r test"
+run "rm -rf test" # Make sure it gets removed
 
 git :add => "."
 git :commit => "-m 'Add testing frameworks'"
