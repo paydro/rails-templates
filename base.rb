@@ -17,6 +17,6 @@ END
 run "touch tmp/.gitignore log/.gitignore vendor/.gitignore"
 run "cp config/database.yml config/example_database.yml"
 
-git :add => ".",
+git :add => "."
 git :commit => "-m 'initial commit'"
 
