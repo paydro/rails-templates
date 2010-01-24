@@ -2,7 +2,6 @@
 run "echo '' > README"
 
 gem 'mislav-will_paginate', :lib => 'will_paginate'
-rake "gems:install", :sudo => true
 
 git :init
 
@@ -18,5 +17,6 @@ END
 run "touch tmp/.gitignore log/.gitignore vendor/.gitignore"
 run "cp config/database.yml config/example_database.yml"
 
-git :add => ".", :commit => "-m 'initial commit'"
+git :add => ".",
+git :commit => "-m 'initial commit'"
 
